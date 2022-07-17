@@ -1,0 +1,29 @@
+{
+  "lint": {
+    "files": {
+      "include": ["encoding/", "mod.ts", "README.md"]
+    },
+    "rules": {
+      "tags": ["recommended"],
+      "include": [
+        "explicit-function-return-type",
+        "explicit-module-boundary-types",
+        "no-eval",
+        "no-await-in-loop",
+        "no-non-null-asserted-optional-chain",
+        "no-non-null-assertion"
+      ]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": ["encoding/", "mod.ts", "README.md"]
+    },
+    "options": {
+      "useTabs": true,
+      "lineWidth": 100,
+      "indentWidth": 2,
+      "singleQuote": true
+    }
+  }
+}
